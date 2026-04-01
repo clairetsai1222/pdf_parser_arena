@@ -155,6 +155,12 @@ git add ./pdf_parser_arena/<comparing method>/ # 将更新后的子模块指针�
 git commit -m "Update pdf_parser_lib_a to latest version"
 ```
 
+remove method
+```bash
+git config -f .gitmodules --remove-section submodule.docling
+git rm -f docling
+git add .gitmodules
+```
 
 ## Intermediate Files Explained
 
