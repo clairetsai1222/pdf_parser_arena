@@ -1,0 +1,9 @@
+[submodule "PaddleOCR"]
+	path = PaddleOCR
+	url = https://github.com/PADDLEPADDLE/PADDLEOCR
+[submodule "MinerU"]
+	path = MinerU
+	url = https://github.com/opendatalab/MinerU.git
+[submodule "docling"]
+	path = docling
+	url = https://github.com/docling-project/docling
